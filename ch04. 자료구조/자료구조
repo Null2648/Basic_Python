@@ -1,0 +1,35 @@
+1. 리스트(List) - 가변길이 배열 : 배열(Array) - 고정길이 배열
+    int arr[3];  // c, c++, java style
+    int[] arr = new int[3]; // java 전용 style
+    arr = []  // 비어있는 list 생성, append() => arr.append(data), 마지막 위치에 추가
+
+  1) 임의의 객체를 순차적으로 저장하는 집합적 자료형(시퀀스 자료형, Sequence DataType)
+  2) 각 값에 대해 인덱스가 부여됨, 인덱스는 0부터 시작한다.
+  3) 변경 가능  arr[0] = 10
+  4) 대괄호 [] 사용
+  5) range() 함수를 통한 인덱스 리스트 생성 가능, R에서 Vecotr 생성하는 함수 seq(10)
+     range(k) : 0부터 k-1까지의 숫자의 리스트를 반환함
+     range(start, stop, step)
+
+2. 튜플(Tuple)
+  1) 리스트와 유사하지만 튜플 내의 값을 변경할 수 없음, read only
+  2) 각 값에 대해 인덱스가 부여됨
+  3) 변경 불가능 - 리스트와 유일한 차이점
+  4) 생성시 : 소괄호 () 사용
+
+3. 사전(Dictionary) - key:value
+  1) 정수형 인덱스가 아닌 키를 이용하여 값을 저장 및 조회하는 자료 구조
+  2) 저장된 각 자료에 대한 순서는 의미 없음
+  3) 중괄호 {} 사용
+  4) 컴마(,)를 기준으로 아이템 구분
+  5) 사전(Dictionary)의 원소 => key:value(쌍으로 이루어짐)
+  6) 사전.keys() => key만 추출(임의의 순서)
+  7) 사전.values() => value만 추출(임의의 순서)
+  8) 사전.items() => key와 value를 튜플로 추출(임의의 순서)
+  9) keys, values, items가 반환하는 자료형 => 리스트
+
+
+
+   import 모듈명 // 해당 모듈의 모든 내용을 가져온다.
+
+   from 모둘명 import 함수나 변수 // 해당 모듈에서 특정 함수나 변수를 가져온다.
